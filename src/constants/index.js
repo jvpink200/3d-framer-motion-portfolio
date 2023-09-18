@@ -8,17 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
+  sql,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  rightpoint,
+  investbook,
+  utc,
+  esri,
+  alemba,
+  westerndigital,
   carrent,
   jobit,
   tripguide,
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Api Integration",
     icon: creator,
   },
 ];
@@ -81,10 +81,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -93,112 +89,103 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git & GitHub",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Rightpoint",
+    icon: rightpoint,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to code 3+ software applications from the healthcare to construction sector.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Executed multiple tasks within an agile software development environment using Jira to track progress as well Azure DevOps, Figma, Git version control and GitHub.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Web Content Developer",
+    company_name: "Western Digital",
+    icon: westerndigital,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilized HTML 5 and Tailwind CSS to customize website layout.",
+      "Handled 5+ projects with deadlines and built according to design specifications for e-commerce website.",
+      "Updated and created websites using Adobe Experience Manager (AEM) based on design specifications.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Content Specialist",
+    company_name: "Esri",
+    icon: esri,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2020 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintained multiple projects with deadlines as well as with Adobe Experience Manger (AEM) CMS, HTML 5 and CSS.",
+      "Collaborated with teammates to finish multiple projects for various stakeholders according to design specifications.",
+      "Utilized Site Improve to help increase SEO rankings.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Support Application Analyst",
+    company_name: "UTC",
+    icon: utc,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2018 - June 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researched client's issues and debugged to provide software resolutions with HTML, JavaScript & SQL.",
+      "Interacted with customers to diagnose problems and implement configuration requirements and solutions, while simultaneously handling 2-4 tickets a day.",
+      "Collaborated with developers, analysts and project managers to expedite incident resolutions",
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Support Application Analyst",
+    company_name: "Alemba",
+    icon: alemba,
+    iconBg: "#E6DEDD",
+    date: "Nov 2018 - June 2019",
+    points: [
+      "Ran system traces or SQL queries on customer's test systems for possible workarounds or fixes utilizing Microsoft SQL Management Studio.",
+      "Maintained effective client communications to increase client satisfaction and improve client retention by 15%.",
+      "Collaborated with developers, analysts and project managers to expedite incident resolutions to resolve about 15+ tickets per week.",
+    ],
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Full Stack Software Developer",
+    company_name: "InvestBook Inc.",
+    icon: investbook,
+    iconBg: "#E6DEDD",
+    date: "July 2015 - April 2017",
+    points: [
+      "Developed efficient and maintainable web applications utilizing PHP, AJAX, SQL, Bootstrap, WebFlow, jQuery, HTML, and CSS.",
+      "Created Firefox and Chrome extensions utilizing HTML5, CSS3, JavaScript, and Node.js.",
+      "Utilized MySQL to create databases as well as SQL queries while working with Mailgun API.",
+      "Provided software application engineering and maintenance for the software development lifecycle according to business specifications and web design while providing an effect user experience.",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dog Adoption Site",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -207,11 +194,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jsx",
         color: "pink-text-gradient",
       },
     ],
@@ -219,7 +206,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Roommate Finder",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -232,7 +219,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sass",
         color: "pink-text-gradient",
       },
     ],
@@ -240,26 +227,23 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Hotel Booking Site",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars with curated recommendations to amazing destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      { name: "mongodb", color: "green-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

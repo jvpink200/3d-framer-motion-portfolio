@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div className="flex flex-col justify-center items-center mt-10">
+        <div className="flex flex-col justify-center items-center">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I&rsquo;m
             <span className="text-[#915EFF]"> Janet Villarreal</span>

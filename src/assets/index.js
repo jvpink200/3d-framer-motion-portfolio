@@ -29,9 +29,10 @@ import esri from "./company/esri.png";
 import utc from "./company/utc.png";
 import alemba from "./company/alemba.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import dogadoption from "./dogadoption.png";
+import roommates from "./roommates.png";
 import tripguide from "./tripguide.png";
+import education from "./education.png";
 
 export {
   logo,
@@ -53,8 +54,8 @@ export {
   typescript,
   threejs,
   rightpoint,
-  carrent,
-  jobit,
+  dogadoption,
+  roommates,
   tripguide,
   investbook,
   westerndigital,
@@ -62,4 +63,5 @@ export {
   utc,
   sql,
   alemba,
+  education,
 };

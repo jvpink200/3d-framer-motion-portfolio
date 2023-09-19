@@ -19,10 +19,11 @@ import {
   esri,
   alemba,
   westerndigital,
-  carrent,
-  jobit,
+  dogadoption,
+  roommates,
   tripguide,
   threejs,
+  education,
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +43,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Mobile Responsive",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Software Developer",
     icon: mobile,
   },
   {
-    title: "Full Stack Developer",
+    title: "Animations",
     icon: backend,
   },
   {
@@ -160,7 +161,7 @@ const experiences = [
     title: "Support Application Analyst",
     company_name: "Alemba",
     icon: alemba,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Nov 2018 - June 2019",
     points: [
       "Ran system traces or SQL queries on customer's test systems for possible workarounds or fixes utilizing Microsoft SQL Management Studio.",
@@ -187,35 +188,36 @@ const projects = [
   {
     name: "Dog Adoption Site",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Help you find your new best friend. Adopt a dog or two today! Plus resources for the first time dog owner with convenient shelter locations near you.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "jsx",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: dogadoption,
+    url: "https://aeroswift.netlify.app/",
     source_code_link: "https://github.com/",
   },
   {
     name: "Roommate Finder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web software application that enables users to search for amazing roommates with common interests and location. Find your perfect roommate and make life long friends.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -223,7 +225,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: roommates,
+    url: "https://perfectroommate.netlify.app/",
     source_code_link: "https://github.com/",
   },
   {
@@ -236,12 +239,41 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
         name: "css",
         color: "pink-text-gradient",
       },
-      { name: "mongodb", color: "green-text-gradient" },
     ],
     image: tripguide,
+    url: "",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Online Educational Learning",
+    description:
+      "A comprehensive educational learning platform that keeps kids engaged. Plus outdoor activities for kids 12 and under",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nextjs",
+      },
+    ],
+    image: education,
+    url: "",
     source_code_link: "https://github.com/",
   },
 ];

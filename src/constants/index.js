@@ -252,7 +252,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Online Educational Learning",
+    name: "Online Educational Learning Platform",
     description:
       "A comprehensive educational learning platform that keeps kids engaged. Plus outdoor activities for kids 12 and under",
     tags: [

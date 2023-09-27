@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 import ServiceCard from "../components/ServiceCard";
 
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "", 0.1, 0.5)}
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[40px] "
       >
         As a tech professional with over 5+ years of tech experience from being

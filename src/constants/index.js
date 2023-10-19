@@ -230,7 +230,7 @@ const projects = [
       },
     ],
     image: roommates,
-    url: "https://perfectroommate.netlify.app/",
+    url: "",
     source_code_link: "https://github.com/",
   },
   {

@@ -208,8 +208,8 @@ const projects = [
       },
     ],
     image: dogadoption,
-    url: "https://aeroswift.netlify.app/",
-    source_code_link: "https://github.com/",
+    url: "https://aerodogadoption.vercel.app/",
+    source_code_link: "https://github.com/jvpink200/aerodogadoption",
   },
   {
     name: "Roommate Finder",

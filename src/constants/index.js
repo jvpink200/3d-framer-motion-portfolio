@@ -203,8 +203,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sass",
         color: "pink-text-gradient",
+      },
+      {
+        name: "nextjs",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
       },
     ],
     image: dogadoption,
@@ -225,7 +232,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sass",
         color: "pink-text-gradient",
       },
       {

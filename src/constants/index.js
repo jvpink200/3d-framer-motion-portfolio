@@ -212,6 +212,31 @@ const projects = [
     source_code_link: "https://github.com/jvpink200/aerodogadoption",
   },
   {
+    name: "Online Educational Learning Platform",
+    description:
+      "A comprehensive educational learning platform that keeps kids engaged. Plus outdoor activities for kids 12 and under",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nextjs",
+      },
+    ],
+    image: education,
+    url: "https://educational-learning.vercel.app/",
+    source_code_link: "https://github.com/jvpink200/education-project",
+  },
+  {
     name: "Roommate Finder",
     description:
       "Web software application that enables users to search for amazing roommates with common interests and location. Find your perfect roommate and make life long friends.",
@@ -254,31 +279,6 @@ const projects = [
     image: tripguide,
     url: "",
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Online Educational Learning Platform",
-    description:
-      "A comprehensive educational learning platform that keeps kids engaged. Plus outdoor activities for kids 12 and under",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nextjs",
-      },
-    ],
-    image: education,
-    url: "https://educational-learning.vercel.app/",
-    source_code_link: "https://github.com/jvpink200/education-project",
   },
 ];
 

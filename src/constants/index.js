@@ -278,7 +278,7 @@ const projects = [
     ],
     image: education,
     url: "https://educational-learning.vercel.app/",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/jvpink200/education-project",
   },
 ];
 
